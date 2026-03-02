@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DSWAWK | Fortnite Duo (Build)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">DSWAWK</div>
+      <div class="nav-links">
+        <a href="#duo">Duo</a>
+        <a href="#stats">Stats</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <h1>DSWAWK <span class="tag">Build Duo</span></h1>
+      <p>Página do duo: <strong>guizinfiez</strong> + <strong>timothe chaIamet</strong>.</p>
+
+      <div class="cta">
+        <a class="btn primary" target="_blank" rel="noreferrer"
+           href="https://www.youtube.com/@dswawk">
+          YouTube do DSWAWK ▶️
+        </a>
+
+        <a class="btn ghost" target="_blank" rel="noreferrer"
+           href="https://fortnitetracker.com/profile/all/dswawk3kk/events">
+          Fortnite Tracker 📊
+        </a>
+      </div>
+
+      <div class="badges">
+        <span class="badge">Build</span>
+        <span class="badge">Scrims</span>
+        <span class="badge">Torneios</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="duo" class="section">
+      <h2>Nosso Duo</h2>
+
+      <div class="grid two">
+        <div class="card player">
+          <h3>guizinfiez</h3>
+          <p class="muted">Player do duo / DSWAWK</p>
+          <div class="chips">
+            <span class="chip">Build</span>
+            <span class="chip">Comp</span>
+          </div>
+        </div>
+
+        <div class="card player">
+          <h3>timothe chaIamet</h3>
+          <p class="muted">Seu nick no duo</p>
+          <div class="chips">
+            <span class="chip">Build</span>
+            <span class="chip">Duo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card duo-highlight">
+        <h3>Highlights</h3>
+        <p class="muted">Canal oficial:</p>
+        <a class="btn small ghost" target="_blank" rel="noreferrer"
+           href="https://www.youtube.com/@dswawk">
+          Abrir @dswawk
+        </a>
+      </div>
+    </section>
+
+    <section id="stats" class="section">
+      <h2>Stats</h2>
+      <div class="grid three">
+        <div class="card stat">
+          <span class="stat-title">Modo</span>
+          <span class="stat-value">Build</span>
+          <span class="stat-note">duo competitivo</span>
+        </div>
+
+        <div class="card stat">
+          <span class="stat-title">Foco</span>
+          <span class="stat-value">Torneios</span>
+          <span class="stat-note">consistência</span>
+        </div>
+
+        <div class="card stat">
+          <span class="stat-title">Tracker</span>
+          <span class="stat-value">Eventos</span>
+          <span class="stat-note">placements</span>
+        </div>
+      </div>
+
+      <div class="card tip">
+        <strong>Dica:</strong> depois a gente coloca aqui os placements “top” manualmente (Top 1k/5k/10k etc.)
+        e deixa mais pro.
+      </div>
+    </section>
+
+    <section id="resultados" class="section">
+      <h2>Resultados em Campeonatos</h2>
+
+      <div class="card">
+        <p>
+          Veja todos os eventos e placements:
+          <a class="link" target="_blank" rel="noreferrer"
+             href="https://fortnitetracker.com/profile/all/dswawk3kk/events">
+            fortnitetracker.com/profile/all/dswawk3kk/events
+          </a>
+        </p>
+
+        <div class="grid two" style="margin-top:12px;">
+          <div class="card mini">
+            <h3>O que vamos listar aqui</h3>
+            <ul class="list">
+              <li>Nome do torneio</li>
+              <li>Data</li>
+              <li>Colocação</li>
+              <li>Pontos / PR ganho</li>
+            </ul>
+          </div>
+
+          <div class="card mini">
+            <h3>Copiar link do Tracker</h3>
+            <button class="btn small" id="copyLink">Copiar</button>
+            <p class="muted small" id="copyStatus"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <h2>Contato</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Redes</h3>
+          <ul class="list">
+            <li>YouTube: <a class="link" target="_blank" rel="noreferrer" href="https://www.youtube.com/@dswawk">@dswawk</a></li>
+            <li>Tracker: <a class="link" target="_blank" rel="noreferrer" href="https://fortnitetracker.com/profile/all/dswawk3kk/events">dswawk3kk</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Mensagem (simulado)</h3>
+          <form id="form">
+            <input class="input" id="nome" placeholder="Seu nome" required />
+            <input class="input" id="msg" placeholder="Sua mensagem" required />
+            <button class="btn primary" type="submit">Enviar</button>
+            <p class="muted small" id="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="ano"></span> DSWAWK — Fortnite Duo (Build)</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
